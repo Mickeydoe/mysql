@@ -1,6 +1,4 @@
-Sure! Here’s a comprehensive MySQL/MariaDB cheat sheet in `README.md` format. This document will cover essential commands for database management, user administration, and querying.
 
----
 
 # MySQL/MariaDB Cheat Sheet
 
@@ -217,6 +215,7 @@ CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 CREATE USER 'john'@'localhost' IDENTIFIED BY 'securepassword';
 ```
 ### Viewing Users
+**Example**:
 
 '''sql
 SELECT user, host FROM mysql.user;
@@ -493,14 +492,4 @@ FLUSH PRIVILEGES;
 
 ---
 
-## Conclusion
 
-This cheat sheet covers the essential MySQL/MariaDB commands for managing databases, tables, users, views, and querying data. These commands provide a foundation for effective database administration and data manipulation.
-
-For more detailed information, refer to the official [MySQL Documentation](https://dev.mysql.com/doc/) or [MariaDB Documentation](https://mariadb.com/kb/en/library/documentation/).
-
-Feel free to customize and extend this cheat sheet to suit your specific needs!
-
----
-
-This should give you a comprehensive guide to most of the necessary commands you'll need when working with MySQL or MariaDB databases. If you need more details or have any specific questions, feel free to ask!
