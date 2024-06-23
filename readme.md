@@ -216,6 +216,11 @@ CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 ```sql
 CREATE USER 'john'@'localhost' IDENTIFIED BY 'securepassword';
 ```
+### Viewing Users
+
+'''sql
+SELECT user, host FROM mysql.user;
+'''
 
 ### Granting Privileges
 
